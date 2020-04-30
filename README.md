@@ -22,7 +22,7 @@ The screenshots below use the Andy Timer data field multiple times in a 3-field-
 ![0](https://github.com/stirnim/garmin-andytimer/blob/master/screenshot/1.png)
 ![0](https://github.com/stirnim/garmin-andytimer/blob/master/screenshot/2.png)
 
-The Andy Timer in the top and bottom data field have the same font size as the built-in timer data field if the time is below one hour. If the activity timer also shows hours numbers, the Andy Timer uses a smaller font. The larger middle data field layout is kind of off. The value is not vertically centered and at times it feels that the font could be larger. I guess this is the price one pays if using the SimpleDataField.
+The Andy Timer in the top and bottom data field have the same font size as the built-in timer data field if the time is below one hour. If the activity timer also shows hours numbers, the Andy Timer uses a smaller font. The larger middle data field layout is kind of off. The value is not vertically centered and at times it feels that the font could be larger. I guess this is the price one pays when using the SimpleDataField.
 
 # App Store
 
