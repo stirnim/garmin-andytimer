@@ -14,7 +14,7 @@ This app uses a ![SimpleDataField](https://developer.garmin.com/connect-iq/api-d
 
 Image of the built-in Garmin Forerunner 945 timer data field:
 
-![0](https://github.com/stirnim/garmin-andytimer/blob/develop/screenshot/garmin.png)
+![0](https://github.com/stirnim/garmin-andytimer/blob/master/screenshot/garmin.png)
 
 The screenshots below use the Andy Timer data field multiple times in a 3-field-layout on a Garmin Forerunner 945:
 
