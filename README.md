@@ -1,6 +1,6 @@
 # About
 
-Andy Timer - a Garmin ![Connect IQ](https://developer.garmin.com/connect-iq/overview/) data field.
+Andy Timer - a Garmin [Connect IQ](https://developer.garmin.com/connect-iq/overview/) data field.
 
 # Goal
 
@@ -10,7 +10,7 @@ The goal of Andy Timer is to show the timer with all numbers of equal size.
 
 # Implementation
 
-This app uses a ![SimpleDataField](https://developer.garmin.com/connect-iq/api-docs/Toybox/WatchUi/SimpleDataField.html). A SimpleDataField handles the field layout automatically. The advantage is that one can focus on the functionality. The disadvantage is of course, that font size and layout are automatically handled. 
+This app uses a [SimpleDataField](https://developer.garmin.com/connect-iq/api-docs/Toybox/WatchUi/SimpleDataField.html). A SimpleDataField handles the field layout automatically. The advantage is that one can focus on the functionality. The disadvantage is of course, that font size and layout are automatically handled. 
 
 Image of the built-in Garmin Forerunner 945 timer data field:
 
@@ -24,6 +24,9 @@ The screenshots below use the Andy Timer data field multiple times in a 3-field-
 
 The Andy Timer in the top and bottom data field have the same font size as the built-in timer data field if the time is below one hour. If the activity timer also shows hours numbers, the Andy Timer uses a smaller font. The larger middle data field layout is kind of off. The value is not vertically centered and at times it feels that the font could be larger. I guess this is the price one pays when using the SimpleDataField.
 
-# App Store
+# Installation
 
-This app is not in the Garmin ![Connect IQ store](https://apps.garmin.com/).
+This app is not in the Garmin [Connect IQ store](https://apps.garmin.com/).
+
+You can use [App Side Loading](https://developer.garmin.com/connect-iq/programmers-guide/getting-started) to install the app onto the device. Copy the compiled binary to the USB mounted Garmin watch into the directory `GARMIN/Apps`. On macos you can use [Android File Transfer](https://www.android.com/filetransfer/) as macos lacks good MTP (Media Transfer Protocol) support.
+
