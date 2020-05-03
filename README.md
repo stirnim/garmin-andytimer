@@ -29,3 +29,5 @@ The Andy Timer generally uses larger or equal large fonts as the built-in timer.
 This app is not in the Garmin [Connect IQ store](https://apps.garmin.com/).
 
 You can use [App Side Loading](https://developer.garmin.com/connect-iq/programmers-guide/getting-started) to install the app onto the device. Copy the compiled binary to the USB mounted Garmin watch into the directory `GARMIN/Apps`. On macos you can use [Android File Transfer](https://www.android.com/filetransfer/) as macos lacks good MTP (Media Transfer Protocol) support.
+
+Latest pre-built [binary](./build/AndyTimer.prg).
