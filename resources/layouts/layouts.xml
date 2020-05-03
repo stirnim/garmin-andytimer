@@ -1,0 +1,312 @@
+<layouts>
+    <!-- A generic, centered layout. -->
+    <layout id="TopRoundedLarge">
+        <drawable class="Background" />
+        <label id="label" x="center" y="34"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="10%" y="14" width="80%" height="110%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+    <layout id="TopRoundedSmall">
+        <drawable class="Background" />
+        <label id="label" x="center" y="13"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="10%" y="25%" width="80%" height="90%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+    <layout id="TopRoundedUltraSmall">
+        <drawable class="Background" />
+        <label id="label" x="center" y="7"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="10%" y="25%" width="80%" height="90%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+    <layout id="SideRoundedLarge">
+        <drawable class="Background" />
+        <label id="label" x="center" y="0"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="0" y="-4" width="100%" height="120%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+    <layout id="SideRoundedSmall">
+        <drawable class="Background" />
+        <label id="label" x="center" y="0"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="0" y="15%" width="100%" height="100%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+    <layout id="BottomRoundedLarge">
+        <drawable class="Background" />
+        <label id="label" x="center" y="2"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="10%" y="-1" width="80%" height="82%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+    <layout id="BottomRoundedSmall">
+        <drawable class="Background" />
+        <label id="label" x="center" y="0"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="18%" y="2" width="64%" height="90%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+    <layout id="BottomRoundedUltraSmall">
+        <drawable class="Background" />
+        <label id="label" x="center" y="-2"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="25%" y="5" width="52%" height="90%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+
+    <!--
+     Layouts used for the full size field.
+    -->
+    <layout id="SingleLayout">
+        <drawable class="Background" />
+        <label id="label" x="center" y="55"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="0" y="20%" width="100%" height="60%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+
+
+    <!--
+     Non specific default layout. Unkonwn size.
+    -->   
+    <layout id="DefaultLayout">
+        <drawable class="Background" />
+        <label id="label" x="center" y="15%"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="10%" y="10%" width="80%" height="100%">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+     
+
+    <!--
+     Layouts used for the four quadrants.
+     Garmin Forerunner 945, each 120 x 120 px
+    -->
+     <layout id="Quad1Layout">
+        <drawable class="Background" />
+        <label id="label" x="110" y="53"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_RIGHT"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="11" y="60" width="100" height="70">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+     <layout id="Quad2Layout">
+        <drawable class="Background" />
+        <label id="label" x="5" y="53"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_LEFT"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="5" y="60" width="100" height="70">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+     <layout id="Quad3Layout">
+        <drawable class="Background" />
+        <label id="label" x="110" y="45"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_RIGHT"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="11" y="-7" width="100" height="60">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+     <layout id="Quad4Layout">
+        <drawable class="Background" />
+        <label id="label" x="5" y="45"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_LEFT"
+            font="Graphics.FONT_XTINY" />
+        <text-area id="value"
+            color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER"
+            x="5" y="-7" width="100" height="60">
+            <fonts>
+                <font>Graphics.FONT_NUMBER_THAI_HOT</font>
+                <font>Graphics.FONT_NUMBER_HOT</font>
+                <font>Graphics.FONT_NUMBER_MEDIUM</font>
+                <font>Graphics.FONT_NUMBER_MILD</font>
+                <font>Graphics.FONT_LARGE</font>
+                <font>Graphics.FONT_MEDIUM</font>
+                <font>Graphics.FONT_SMALL</font>
+                <font>Graphics.FONT_TINY</font>
+                <font>Graphics.FONT_XTINY</font>
+            </fonts>
+        </text-area>
+     </layout>
+</layouts>
