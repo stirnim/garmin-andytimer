@@ -5,13 +5,22 @@ using Toybox.Time;
 class AndyTimerView extends WatchUi.DataField {
 
     hidden var mValue;
+    hidden var mSetMyLayout;
 
     function initialize() {
         DataField.initialize();
         mValue = "0:00";
+        mSetMyLayout = false;
     }
 
     function onLayout(dc) {
+        // We require DataField.getObscurityFlags() but it only works in onUpdate(dc)
+        // https://developer.garmin.com/connect-iq/api-docs/Toybox/WatchUi/DataField.html#getObscurityFlags-instance_method
+        return true;
+    }
+
+    function setMyLayout(dc) {
+        var setMyLayout = true;
         var viewWidth = dc.getWidth();
         var viewHeight = dc.getHeight();
         var obscurityFlags = DataField.getObscurityFlags();
@@ -53,13 +62,10 @@ class AndyTimerView extends WatchUi.DataField {
                 View.setLayout(Rez.Layouts.DefaultLayout(dc));
             }
         }
-
         var label = View.findDrawableById("label");
         label.setText(Rez.Strings.label);
         var value = View.findDrawableById("value");
         value.setText(mValue);
-
-        return true;
     }
 
     // The given info object contains all the current workout
@@ -79,6 +85,11 @@ class AndyTimerView extends WatchUi.DataField {
     // Display the value you computed here. This will be called
     // once a second when the data field is visible.
     function onUpdate(dc) {
+        // DataField.getObscurityFlags() only works in onUpdate()
+        if (!mSetMyLayout) {
+            setMyLayout(dc);
+        }
+
         // Set the background color
         View.findDrawableById("Background").setColor(getBackgroundColor());
 

@@ -8,9 +8,11 @@ Garmin Forerunner 945 (and possibly other) Garmin watches have a built-in timer 
 
 The goal of Andy Timer is to show the time with all numbers of equal size and with a large font.
 
+Note: An Activity can at most use only two DataField apps. It can therefore make sense to create your own full screen DataField app where you place multiple data fields as you require and only occupy one DataField app.
+
 # Implementation
 
-My first attempt was to use the [SimpleDataField](https://developer.garmin.com/connect-iq/api-docs/Toybox/WatchUi/SimpleDataField.html). A SimpleDataField handles the field layout automatically. However, it turns out that font size, label and value placement are often times not optimal. Thus, I created multiple layouts so that the data field can be used in any data field arrangements for the Forerunner 945.
+My first attempt was to use the [SimpleDataField](https://developer.garmin.com/connect-iq/api-docs/Toybox/WatchUi/SimpleDataField.html). A SimpleDataField handles the field layout automatically. However, it turns out that font size, label and value placement are often times not optimal. Thus, I created a [DataField](https://developer.garmin.com/connect-iq/api-docs/Toybox/WatchUi/DataField.html) with multiple layouts so that the data field can be used in any data field arrangements for the Forerunner 945.
 
 Image of the built-in Garmin Forerunner 945 timer data field:
 

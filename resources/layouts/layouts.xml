@@ -196,7 +196,7 @@
 
 
     <!--
-     Non specific default layout. Unkonwn size.
+     Non specific default layout. Unknown size.
     -->   
     <layout id="DefaultLayout">
         <drawable class="Background" />
