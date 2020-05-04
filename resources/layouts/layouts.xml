@@ -28,7 +28,7 @@
             font="Graphics.FONT_XTINY" />
         <text-area id="value"
             color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"
-            x="10%" y="25%" width="80%" height="90%">
+            x="10%" y="15%" width="80%" height="100%">
             <fonts>
                 <font>Graphics.FONT_NUMBER_THAI_HOT</font>
                 <font>Graphics.FONT_NUMBER_HOT</font>
