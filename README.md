@@ -8,7 +8,7 @@ Garmin Forerunner 945 (and possibly other) Garmin watches have a built-in timer 
 
 The goal of Andy Timer is to show the time with all numbers of equal size and with a large font.
 
-Note: An Activity can at most use only two DataField apps. It can therefore make sense to create your own full screen DataField app where you place multiple data fields as you require and only occupy one DataField app.
+Note: A sport activity (e.g. running) can at most only use two DataField apps. That said, it generally makes sense to create a full size DataField app which displays multiple metrics in one DataField.
 
 # Implementation
 
@@ -24,7 +24,7 @@ The screenshots below use the Andy Timer data field in a 3 and 4 field layout on
 ![0](https://github.com/stirnim/garmin-andytimer/blob/master/screenshot/1.png)
 ![0](https://github.com/stirnim/garmin-andytimer/blob/master/screenshot/2.png)
 
-The Andy Timer uses the largest fonts possible. However, because not all watch fonts are exposed to Connect IQ it is still possible that the built-in data fields may have a better suited font. For example, the following font sizes are exposed to Connect IQ for the Garmin Forerunner 945: 13, 17, 19, 22, 24, 28, 34, 46, 53. Additional system fonts not exposed to Connect IQ have the following size: 31, 42, 59.
+The Andy Timer uses the largest fonts possible. However, because not all watch fonts are exposed to Connect IQ it is still possible that the built-in data fields may show a better suited font. For example, the following font sizes are exposed to Connect IQ for the Garmin Forerunner 945: 13, 17, 19, 22, 24, 28, 34, 46, 53. Additional system fonts not exposed to Connect IQ have the following size: 31, 42, 59 (See `bin/devices.xml` in the [SDK](https://developer.garmin.com/connect-iq/sdk/)).
 
 # Installation
 
