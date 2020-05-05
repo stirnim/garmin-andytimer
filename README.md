@@ -24,7 +24,7 @@ The screenshots below use the Andy Timer data field in a 3 and 4 field layout on
 ![0](https://github.com/stirnim/garmin-andytimer/blob/master/screenshot/1.png)
 ![0](https://github.com/stirnim/garmin-andytimer/blob/master/screenshot/2.png)
 
-The Andy Timer generally uses larger or equal large fonts as the built-in timer. The only time it has smaller fonts is when the data field is shown in the 1 field layout or 3 field layout in the middle. In both cases, if the time is below one hour, the built-in timer uses a size 59 font which is not exposed to Connect IQ. The largest font exposed to Connect IQ is of size 53 (`FONT_NUMBER_THAI_HOT`).
+The Andy Timer uses the largest fonts possible. However, because not all watch fonts are exposed to Connect IQ it is still possible that the built-in data fields may have a better suited font. For example, the following font sizes are exposed to Connect IQ for the Garmin Forerunner 945: 13, 17, 19, 22, 24, 28, 34, 46, 53. Additional system fonts not exposed to Connect IQ have the following size: 31, 42, 59.
 
 # Installation
 
